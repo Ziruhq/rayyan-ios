@@ -73,6 +73,12 @@ let fingerprinter = FingerprinterFactory.getInstance()
 fingerprinter.getFingerprint { fingerprint in
     // Do something awesome with the fingerprint
 }
+
+// Get SIGNALS
+
+fingerprinter.getAllFingerprintSignalsByCategoryJSON { signals in 
+  // Do something with the generated signals in JSON format
+}
 ```
 
 ## Fingerprint vs. DeviceId
