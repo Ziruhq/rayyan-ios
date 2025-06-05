@@ -2,5 +2,5 @@ platform :ios, '14.0'
 use_frameworks!
 
 target 'DemoApp' do
-  pod 'FingerprintJS', '~> 1.5'
+  pod 'RayyanIOS', :git => 'git@github.com:Ziruhq/rayyan-ios.git', :branch => 'main'
 end

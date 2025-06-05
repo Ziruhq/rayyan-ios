@@ -3,15 +3,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "FingerprintJS",
+    name: "RayyanIOS",
     platforms: [
         .iOS(.v12),
         .tvOS(.v12),
     ],
     products: [
         .library(
-            name: "FingerprintJS",
-            targets: ["FingerprintJS"]
+            name: "RayyanIOS",
+            targets: ["RayyanIOS"]
         ),
         .library(
             name: "SystemControl",
@@ -21,15 +21,15 @@ let package = Package(
     targets: [
         // Client Libraries
         .target(
-            name: "FingerprintJS",
+            name: "RayyanIOS",
             dependencies: ["SystemControl"]
         ),
         .target(name: "SystemControl"),
 
         // Tests
         .testTarget(
-            name: "FingerprintJSTests",
-            dependencies: ["FingerprintJS"]
+            name: "RayyanIOSTests",
+            dependencies: ["RayyanIOS"]
         ),
         .testTarget(
             name: "SystemControlTests",

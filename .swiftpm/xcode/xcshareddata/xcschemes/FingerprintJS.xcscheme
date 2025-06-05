@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FingerprintJS"
-               BuildableName = "FingerprintJS"
-               BlueprintName = "FingerprintJS"
+               BlueprintIdentifier = "RayyanIOS"
+               BuildableName = "RayyanIOS"
+               BlueprintName = "RayyanIOS"
                ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
@@ -54,9 +54,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FingerprintJS"
-            BuildableName = "FingerprintJS"
-            BlueprintName = "FingerprintJS"
+            BlueprintIdentifier = "RayyanIOS"
+            BuildableName = "RayyanIOS"
+            BlueprintName = "RayyanIOS"
             ReferencedContainer = "container:">
          </BuildableReference>
       </MacroExpansion>

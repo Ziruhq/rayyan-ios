@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://fingerprint.com">
-    <img src="resources/logo.svg" alt="FingerprintJS" width="300px" />
+    <img src="resources/logo.svg" alt="RayyanIOS" width="300px" />
   </a>
 </p>
 <p align="center">Lightweight iOS library for local device fingerprinting</p>
@@ -45,7 +45,7 @@
 
 ```ruby
 # Podfile
-pod 'FingerprintJS'
+pod 'RayyanIOS'
 ```
 
 Note: If you've never used CocoaPods for dependency management, check out their [Using CocoaPods](https://guides.cocoapods.org/using/using-cocoapods.html) guide that will walk you through the setup process.
@@ -53,7 +53,7 @@ Note: If you've never used CocoaPods for dependency management, check out their 
 ## Quick Start (async/await - preferred)
 
 ```swift
-import FingerprintJS
+import RayyanIOS
  
 let fingerprinter = FingerprinterFactory.getInstance()
 Task {
@@ -67,7 +67,7 @@ Task {
 ## Quick Start (closures - backwards compatibility)
 
 ```swift
-import FingerprintJS 
+import RayyanIOS 
 
 let fingerprinter = FingerprinterFactory.getInstance()
 fingerprinter.getFingerprint { fingerprint in

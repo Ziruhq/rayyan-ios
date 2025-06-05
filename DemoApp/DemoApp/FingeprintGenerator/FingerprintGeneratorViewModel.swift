@@ -6,7 +6,7 @@
 //
 
 import Combine
-import FingerprintJS
+import RayyanIOS
 
 enum FingerprintGeneratorState {
     case notGenerated

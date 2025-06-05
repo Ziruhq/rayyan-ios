@@ -1,20 +1,20 @@
 PODS:
-  - FingerprintJS (1.5.0):
-    - FingerprintJS/Core (= 1.5.0)
-  - FingerprintJS/Core (1.5.0):
-    - FingerprintJS/SystemControl
-  - FingerprintJS/SystemControl (1.5.0)
+  - RayyanIOS (1.6.0):
+    - RayyanIOS/Core (= 1.6.0)
+  - RayyanIOS/Core (1.6.0):
+    - RayyanIOS/SystemControl
+  - RayyanIOS/SystemControl (1.6.0)
 
 DEPENDENCIES:
-  - FingerprintJS (~> 1.5)
+  - RayyanIOS (from `../`)
 
-SPEC REPOS:
-  trunk:
-    - FingerprintJS
+EXTERNAL SOURCES:
+  RayyanIOS:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  FingerprintJS: 96410117a394cca04d0f1e2374944c8697f2cceb
+  RayyanIOS: 3799a74204e60aedf71f15cda7062170c942245f
 
-PODFILE CHECKSUM: e711991b69c78b606d26a268b0e7878603d8626e
+PODFILE CHECKSUM: e3eb2eab3705fad410d9cbf3cf749e33590ea157
 
 COCOAPODS: 1.15.2

@@ -3,7 +3,7 @@ import XCTest
 #if !COCOAPODS
 @testable import SystemControl
 #else
-@testable import FingerprintJS
+@testable import RayyanIOS
 #endif
 
 final class SubsystemValueRetrievalIntegrationTests: XCTestCase {

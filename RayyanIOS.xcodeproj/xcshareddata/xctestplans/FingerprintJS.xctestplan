@@ -1,8 +1,8 @@
 {
   "configurations" : [
     {
-      "id" : "FE9BB787-5CB9-4F30-9030-41322649ED60",
-      "name" : "Test Scheme Action",
+      "id" : "00FA0C3D-9187-4EB7-8DAE-E8A217C948E1",
+      "name" : "Configuration 1",
       "options" : {
 
       }
@@ -12,13 +12,13 @@
     "codeCoverage" : {
       "targets" : [
         {
-          "containerPath" : "container:",
-          "identifier" : "RayyanIOS",
+          "containerPath" : "container:FingerprintJS.xcodeproj",
+          "identifier" : "6A82A17927D65DB4007C023F",
           "name" : "RayyanIOS"
         },
         {
-          "containerPath" : "container:",
-          "identifier" : "SystemControl",
+          "containerPath" : "container:FingerprintJS.xcodeproj",
+          "identifier" : "6A2047F22971ACFA008EC677",
           "name" : "SystemControl"
         }
       ]
@@ -29,16 +29,16 @@
     {
       "parallelizable" : true,
       "target" : {
-        "containerPath" : "container:",
-        "identifier" : "FingerprintJSTests",
+        "containerPath" : "container:FingerprintJS.xcodeproj",
+        "identifier" : "6A82A18127D65DB4007C023F",
         "name" : "FingerprintJSTests"
       }
     },
     {
       "parallelizable" : true,
       "target" : {
-        "containerPath" : "container:",
-        "identifier" : "SystemControlTests",
+        "containerPath" : "container:FingerprintJS.xcodeproj",
+        "identifier" : "6A0F5C81297898430068BD4D",
         "name" : "SystemControlTests"
       }
     }

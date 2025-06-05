@@ -5,7 +5,7 @@
 //  Created by Petr Palata on 22.03.2022.
 //
 
-import FingerprintJS
+import RayyanIOS
 import SwiftUI
 
 struct FingerprintGeneratorView: View {
@@ -18,7 +18,7 @@ struct FingerprintGeneratorView: View {
                 VStack {
                     HStack(alignment: .center) {
                         Image("FingerprintImage")
-                        Text("FingerprintJS")
+                        Text("RayyanIOS")
                             .fontWeight(.bold)
                             .font(.system(size: 30))
                     }

@@ -10,7 +10,7 @@ readonly OPTION_TVOS_PLATFORM="--tvos-platform"
 readonly PROJECT_ROOT_PATH="$SCRIPT_ABS_PATH/.."
 
 readonly XCODE_PROJECT="FingerprintJS.xcodeproj"
-readonly XCODE_SCHEME="FingerprintJS"
+readonly XCODE_SCHEME="RayyanIOS"
 
 PLATFORM_IOS="iOS Simulator,name=iPhone 15 Pro"
 PLATFORM_TVOS="tvOS Simulator,name=Apple TV 4K (3rd generation) (at 1080p)"

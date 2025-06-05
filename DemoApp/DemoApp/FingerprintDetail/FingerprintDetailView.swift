@@ -7,7 +7,7 @@
 
 import SwiftUI
 import Combine
-import FingerprintJS
+import RayyanIOS
 
 struct FingerprintDetailView: View {
     let fingerprintTree: FingerprintTree

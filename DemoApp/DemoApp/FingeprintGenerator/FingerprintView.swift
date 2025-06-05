@@ -5,7 +5,7 @@
 //  Created by Petr Palata on 22.03.2022.
 //
 
-import FingerprintJS
+import RayyanIOS
 import SwiftUI
 
 struct FingerprintView: View {

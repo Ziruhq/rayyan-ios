@@ -5,7 +5,7 @@
 //  Created by Petr Palata on 20.03.2022.
 //
 
-import FingerprintJS
+import RayyanIOS
 import SwiftUI
 
 struct InfoTreeView: View {
